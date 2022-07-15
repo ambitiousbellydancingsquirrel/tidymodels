@@ -1,7 +1,8 @@
-# The focus of this exercise was to explore feature engineering. This dataset had 12 predictors.
-# Collinearity was explored and candidate features were retained.
+# The focus of this exercise was to practice feature engineering. This dataset had 12 predictors.
+# Collinearity was explored and 4 candidate features were retained.
 # Skewness was also dealt with by reflection, log transformation, scaling and centering.
-# I look forward to exploring Box-Cox transformations in future datasets
+# Finally, I ran a quick logistic regression.
+# I look forward to exploring Box-Cox transformations in future datasets.
 
 # libraries
 
