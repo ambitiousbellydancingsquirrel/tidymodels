@@ -1,3 +1,8 @@
+# The focus of this exercise was to explore feature engineering. This dataset had 12 predictors.
+# Collinearity was explored and candidate features were retained.
+# Skewness was also dealt with by reflection, log transformation, scaling and centering.
+# I look forward to exploring Box-Cox transformations in future datasets
+
 # libraries
 
 library(tidyverse)
@@ -12,7 +17,7 @@ library(car)
 # data
 
 pumpkin <- pumpkin_seeds %>% 
-  rename(Area = ï..Area) %>% 
+  rename(Area = Ã¯..Area) %>% 
   mutate(class = "cercevelik",
          Area = as.double(Area)) %>% 
   select(-Class) %>% 
